@@ -1,0 +1,35 @@
+
+#registerButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+#terms{
+    font-size: 13px;
+
+}
+#termsLink{
+   font-weight: bold;
+}
+
+#welcome{
+    font-weight: bold;
+}
+#termsModal .modal-dialog {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 500px;
+    max-width: 50%; /* Adjust as needed */
+    max-height: 100vh; /* Adjust as needed */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}/* Adjust as needed */
+
+#logout .logout-text {
+     display: none;
+ }
+
+#logout:hover .logout-text {
+    display: inline;
+}
+
